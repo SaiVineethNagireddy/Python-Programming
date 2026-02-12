@@ -300,3 +300,16 @@ sort(), reverse(), extend()
         The else block lets you execute code when there is no error.
         The finally block lets you execute code, regardless of the result of the try- and except blocks.
 
+18.User_Input
+    User input means taking data from the user during program execution. In Python, we use the input() function to get input from the user.
+        name = input("Enter your name: ")
+        print("Hello", name)
+
+19.File-Handling
+    File handling allows us to:
+        Create files
+        Read files
+        Write files
+        Append data
+        Delete files
+    Python provides built-in open() function for file operations.
