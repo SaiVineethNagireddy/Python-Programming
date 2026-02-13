@@ -1,0 +1,60 @@
+Object Oriented programming
+    OOP stands for Object-Oriented Programming.Python is an object-oriented language, allowing you to structure your code using classes and objects for better organization and reusability.
+
+Advantages of OOP:
+    Provides a clear structure to programs
+    Makes code easier to maintain, reuse, and debug
+    Helps keep your code DRY (Don't Repeat Yourself)
+    Allows you to build reusable applications with less code
+
+Classes and Objects:
+    Classes and objects are the two core concepts in object-oriented programming.
+      A class defines what an object should look like, and an object is created based on that class. For example:
+        Class	 Objects
+        Fruit  - Apple, Banana, Mango
+        Car	   - Volvo, Audi, Toyota
+
+Python __init__() Method:
+    All classes have a built-in method called __init__(), which is always executed when the class is being initiated.The __init__() method is used to assign values to object properties, or to perform operations that are necessary when the object is being created.
+
+The self Parameter:
+    The self parameter is a reference to the current instance of the class.It is used to access properties and methods that belong to the class.
+
+Python Class Properties:
+    Properties are variables that belong to a class. They store data for each object created from the class.
+    Example:
+            class Person:
+                def __init__(self, name, age):
+                    self.name = name
+                    self.age = age
+
+                p1 = Person("Emil", 36)
+
+                print(p1.name)
+                print(p1.age)
+
+Python Class Methods:
+    Methods are functions that belong to a class. They define the behavior of objects created from the class.
+    Example: 
+            class Person:
+                def __init__(self, name):
+                    self.name = name
+
+                def greet(self):
+                    print("Hello, my name is " + self.name)
+
+                p1 = Person("sai")
+                p1.greet()
+
+Python Inheritance:
+    Inheritance allows us to define a class that inherits all the methods and properties from another class.    
+    Parent class is the class being inherited from, also called base class.
+    Child class is the class that inherits from another class, also called derived class.
+
+Python Polymorphism:
+    The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+
+Python Encapsulation
+    Encapsulation is about protecting data inside a class.
+    It means keeping data (properties) and methods together in a class, while controlling how the data can be accessed from outside the class.
+    This prevents accidental changes to your data and hides the internal details of how your class works.
