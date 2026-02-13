@@ -22,5 +22,12 @@ print()
 x = myname()
 y = myname()
 z = myname()
-print(x)
+print(x.name)
+print(y.name)
+print(z.name)
+print()
+
+#Creating a class without content
+class nocontent:
+    pass
 
