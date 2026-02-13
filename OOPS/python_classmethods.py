@@ -104,4 +104,4 @@ class Person:
 
 p1 = Person("saivineeth")
 del Person.greet
-p1.greet() 
+p1.greet() #This shows an error
